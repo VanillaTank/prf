@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(209, 234, 250);
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.work-list {
+    width: 50%;
+}
+.work-list__item {
+    max-width: 400px;
+    width: 100%;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.work-list__item:hover{
+    box-shadow: 0 0 3px rgb(187, 186, 186);
+}
+.work-list__item a {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    color: #333;
+    text-decoration: none;
+}
